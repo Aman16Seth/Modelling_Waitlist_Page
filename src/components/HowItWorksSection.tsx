@@ -50,7 +50,7 @@ export function HowItWorksSection() {
   return (
     <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="text-center mb-20">How It Works</h2>
+        <h2 className="text-center text-xl mb-20">How It Works</h2>
         
         <div className="grid md:grid-cols-2 gap-16">
           {/* Models Flow */}

@@ -3,8 +3,8 @@ import { ArrowDown } from "lucide-react";
 
 export function HeroSection() {
   const scrollToWaitlist = () => {
-    const element = document.getElementById('waitlist');
-    element?.scrollIntoView({ behavior: 'smooth' });
+    const googleFormURL = "https://forms.gle/xvyZ4GNS6TJtpsbK7";
+    window.open(googleFormURL, "_blank");
   };
 
   return (
@@ -33,7 +33,7 @@ export function HeroSection() {
           className="bg-amber-500 hover:bg-amber-600 text-black px-12 py-6 text-lg shadow-2xl"
         >
           Join Waitlist
-          <ArrowDown className="ml-2 h-5 w-5" />
+          {/* <ArrowDown className="ml-2 h-5 w-5" /> */}
         </Button>
       </div>
     </section>

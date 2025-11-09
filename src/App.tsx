@@ -15,7 +15,7 @@ export default function App() {
       <ForDesignersSection />
       <HowItWorksSection />
       <TestimonialsSection />
-      <WaitlistFormSection />
+      {/* <WaitlistFormSection /> */}
       <GallerySection />
       <Footer />
     </div>
