@@ -6,15 +6,15 @@ export function GallerySection() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
 
   const images = [
-    { url: "src/components/Gallery/Img1.jpeg", alt: "Landing Page" },
-    { url: "src/components/Gallery/Img2.jpeg", alt: "The Home Section" },
-    { url: "src/components/Gallery/Img3.jpeg", alt: "The Jobs Section" },
+    { url: "Gallery/Img1.jpeg", alt: "Landing Page" },
+    { url: "Gallery/Img2.jpeg", alt: "The Home Section" },
+    { url: "Gallery/Img3.jpeg", alt: "The Jobs Section" },
     {
-      url: "src/components/Gallery/Img4.jpeg",
+      url: "Gallery/Img4.jpeg",
       alt: "Other Model Profile View",
     },
-    { url: "src/components/Gallery/Img5.jpeg", alt: "Other Model Details" },
-    { url: "src/components/Gallery/Img6.jpeg", alt: "In App Messaging" },
+    { url: "Gallery/Img5.jpeg", alt: "Other Model Details" },
+    { url: "Gallery/Img6.jpeg", alt: "In App Messaging" },
   ];
 
   return (
